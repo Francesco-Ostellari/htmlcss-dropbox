@@ -246,3 +246,21 @@ div .img-logo {
 .riassunto-piano {
   padding: 20px 70px 10px 20px;
 }
+
+.row-main {
+  border: 1px solid grey;
+  margin: 30px 350px 0 300px;
+}
+
+.row-title {
+  border-bottom: 1px solid grey;
+  text-align: center;
+  padding: 10px;
+}
+
+.soluzioni {
+   font-size: 15px;
+   font-weight: 400;
+   color: black;
+   padding: 0 70px 10px 20px;
+}
