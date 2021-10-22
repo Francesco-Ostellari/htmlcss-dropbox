@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+    position: fixed;
+    top: 40px;
+    z-index: 999;
+    width: 100%;
+}
+
+.li-menù {
+  display: inline;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+div .img-logo {
+  float: left;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+
+.menù {
+  width: 500px;
+}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.left-menù {
+  float: left;
+}
+
+.right-menù {
+  float: right;
+}
+
