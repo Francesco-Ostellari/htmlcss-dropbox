@@ -264,3 +264,21 @@ div .img-logo {
    color: black;
    padding: 0 70px 10px 20px;
 }
+.left-column-row {
+  float: left;
+  width: 700px;
+}
+.right-column-row {
+  float: right;
+  width: 700px;
+}
+
+.contained-column-row {
+  margin-right: 0;
+}
+
+#titolo-profilo {
+  padding-right: 0;
+}
+
+  <a class="prova-gratuita" href="#">Contatta l'ufficio vendite</a>
