@@ -139,7 +139,7 @@ div .img-logo {
 
 .fatturazione {
   line-height: 20px;
-  vertical-align: middle;ù
+  vertical-align: middle;
 }
 
 .cerchio-grigio {
@@ -160,4 +160,37 @@ div .img-logo {
 
 .opzioni {
   margin: 50px 0 0 300px;
+}
+
+.left-column-main {
+  border: 1px solid black;
+  float: left;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.centre-column-main {
+  border: 1px solid black;
+  float: left;
+  margin: 30px 20px 0 20px;
+}
+
+.right-column-main {
+  border: 1px solid black;
+  float: left;
+  margin-top: 30px;
+}
+
+.profilo {
+  border-bottom: 1px solid grey;
+}
+
+.titolo-profilo {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 70px 10px 20px;
+}
+
+.costo {
+  
 }
