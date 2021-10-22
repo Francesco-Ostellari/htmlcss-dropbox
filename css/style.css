@@ -9,7 +9,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   min-width: 600px;
-  max-width: 2000px;
   margin: 0 auto;
 }
 
@@ -21,16 +20,15 @@ body {
     padding: 15px;
 }
 .contained-navigation {
-  width: 2000px;
   height: 80px;
 }
 
-.menù {
+.menu {
   line-height: 30px;
   vertical-align: middle;
 }
 
-.li-menù {
+.li-menu {
   display: inline;
   margin: 15px;
 }
@@ -47,20 +45,17 @@ div .img-logo {
   margin-left: 10px;
 }
 
-.menù {
-  width: 500px;
-}
 .clearfix {
   display: table;
   content: '';
   clear: both;
 }
 
-.left-menù {
+.left-menu {
   float: left;
+  margin-right: 1450px;
 }
-
-.right-menù {
+.right-menu {
   float: right;
 }
 
@@ -130,5 +125,39 @@ div .img-logo {
   position: absolute;
   top:0;
   left: 0;
+  max-width: 900px; 
+}
+.cerchio-blu {
+      width: 20px;
+      height: 20px;
+      border: 5px solid #0061FF;
+      border-radius: 50%;
+      display:inline-block;
+      line-height: 20px;
+      vertical-align: middle;
 }
 
+.fatturazione {
+  line-height: 20px;
+  vertical-align: middle;ù
+}
+
+.cerchio-grigio {
+      width: 20px;
+      height: 20px;
+      border: 2px solid grey;
+      border-radius: 50%;
+      display:inline-block;
+      line-height: 20px;
+      vertical-align: middle;
+      margin-left: 10px;
+}
+
+.title-2 {
+  margin: 200px 0 0 300px;
+  font-size: 50px;
+}
+
+.opzioni {
+  margin: 50px 0 0 300px;
+}
