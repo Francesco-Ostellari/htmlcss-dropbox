@@ -28,10 +28,19 @@ body {
   margin: 15px;
 }
 
-
 a {
   text-decoration: none;
   color: black;
+}
+.a-menu {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.a-menu:hover {
+  border-bottom: 5px solid #0061FF;
 }
 
 .img-logo {
