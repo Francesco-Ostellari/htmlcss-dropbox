@@ -14,19 +14,14 @@ body {
 
 .navigation {
     position: fixed;
-    top: 40px;
+    top: 0;
     z-index: 999;
     height: 80px;
-    padding: 15px;
-}
-.contained-navigation {
-  height: 80px;
+    background-color: white;
+    width: 100%;
+    line-height: 80px;
 }
 
-.menu {
-  line-height: 30px;
-  vertical-align: middle;
-}
 
 .li-menu {
   display: inline;
@@ -39,13 +34,16 @@ a {
   color: black;
 }
 
-div .img-logo {
+.img-logo {
   float: left;
   margin-right: 10px;
   margin-left: 10px;
 }
+.logo {
+  vertical-align: middle;
+}
 
-.clearfix {
+.clearfix::after {
   display: table;
   content: '';
   clear: both;
@@ -53,7 +51,6 @@ div .img-logo {
 
 .left-menu {
   float: left;
-  margin-right: 1450px;
 }
 .right-menu {
   float: right;
@@ -71,7 +68,7 @@ div .img-logo {
 }
 
 .jumbotron {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
   padding: 100px 200px;
   background-color: #B4D0E7;
