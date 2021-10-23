@@ -102,7 +102,7 @@ a {
   font-size: 20px;
 }
 
-.prova-gratuita {
+.button-blu {
   width: 200px;
   height: 25px;
   padding: 10px 15px;
@@ -291,7 +291,12 @@ a {
 
 .row-main {
   border: 1px solid grey;
-  margin: 30px 350px 0 300px;
+  width: 97%;
+}
+
+.contained-row {
+  width: 100%;
+  padding: 20px;
 }
 
 .row-title {
@@ -306,21 +311,41 @@ a {
    color: black;
    padding: 0 70px 10px 20px;
 }
-.left-column-row {
-  float: left;
-  width: 700px;
-}
-.right-column-row {
-  float: right;
-  width: 700px;
-}
 
 .contained-column-row {
   margin-right: 0;
 }
 
-#titolo-profilo {
-  padding-right: 0;
+.titolo-profilo-row {
+  width: 10%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom:10px;
 }
 
-  <a class="prova-gratuita" href="#">Contatta l'ufficio vendite</a>
+#contattavenditore {
+  width: 200px;
+  height: 25px;
+  padding: 10px 15px;
+  background-color: #0061FF;
+  color: white;
+  float: right;
+}
+/* #contattavenditore {
+  width: 17%;
+  height: 25px;
+  float: right;
+  padding: 10px 15px;
+  background-color: #0061FF;
+  color: white;
+} */
+
+.costo-row {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
