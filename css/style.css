@@ -367,5 +367,11 @@ a {
 }
 
 .text-partner {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#button-white {
+  background-color: white;
+  color: black;
+  border: 2px solid grey;
 }
