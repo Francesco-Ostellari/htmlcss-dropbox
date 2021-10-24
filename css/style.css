@@ -176,7 +176,7 @@ a {
 .left-column-main, 
 .centre-column-main,
 .right-column-main {
-  width: calc(100% / 3 - 40px);
+  width: calc(100% / 3 - 20px);
 }
 
 .left-column-main {
@@ -186,7 +186,7 @@ a {
 }
 
 #hidden {
-  overflow: hidden;
+  visibility: hidden;
 }
 
 .centre-column-main {
@@ -291,7 +291,8 @@ a {
 
 .row-main {
   border: 1px solid grey;
-  width: 97%;
+  width: 100%;
+  margin-bottom: 60px;
 }
 
 .contained-row {
@@ -309,17 +310,10 @@ a {
    font-size: 15px;
    font-weight: 400;
    color: black;
-   padding: 0 70px 10px 20px;
-}
-
-.contained-column-row {
-  margin-right: 0;
+   padding-bottom: 20px;
 }
 
 .titolo-profilo-row {
-  width: 10%;
-  display: inline-block;
-  float: left;
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 700;
@@ -327,25 +321,51 @@ a {
 }
 
 #contattavenditore {
-  width: 200px;
   height: 25px;
   padding: 10px 15px;
   background-color: #0061FF;
   color: white;
-  float: right;
 }
-/* #contattavenditore {
-  width: 17%;
-  height: 25px;
-  float: right;
-  padding: 10px 15px;
-  background-color: #0061FF;
-  color: white;
-} */
 
 .costo-row {
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 10px;
   margin-top: 20px;
+}
+
+.left-column-row {
+  width: 85%;
+  float: left;
+}
+
+.right-column-row {
+  float: left;
+  width: 15%;
+}
+
+.left-column-partner {
+  width: 50%;
+  float: left;
+}
+
+.img-partner {
+  width: 100%;
+}
+
+.title-partner {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom:10px;
+}
+
+.right-column-partner {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.text-partner {
+  margin-bottom: 20px;
 }
