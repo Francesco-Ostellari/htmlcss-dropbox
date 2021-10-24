@@ -407,3 +407,30 @@ a {
 .centre {
   margin: 0 30px;
 }
+
+.bg-blu {
+  background-color: #B4D0E7;
+  width: 100%;
+}
+
+.left-column-utilizzatori {
+  width: 60%;
+  float: left;
+  padding: 150px;
+}
+
+.right-column-utilizzatori {
+  width: 40%;
+  float: left;
+  padding: 150px;
+}
+
+#color-brown {
+  color: #61082B;
+  margin: 0;
+}
+
+#bg-white {
+  background-color: white;
+  color: black;
+}
