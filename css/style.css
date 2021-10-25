@@ -320,7 +320,6 @@ a {
 }
 
 #contattavenditore {
-  height: 25px;
   padding: 10px 15px;
   background-color: #0061FF;
   color: white;
@@ -543,3 +542,77 @@ a {
   display: inline-block;
   float: right;
 }
+
+.container-faq {
+  width: 70%;
+  margin: 200px auto;
+
+}
+
+#faq {
+  margin-bottom: 50px;
+}
+
+.li-faq {
+  list-style-type: none;
+  padding: 30px 0;
+  border-top: 1px solid lightgray;
+}
+
+#border-bottom {
+  border-bottom: 1px solid lightgray;
+}
+
+.fa-chevron-down {
+  float: right;
+  padding-right: 3%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+}
+
+.container-footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.column-footer {
+  width: calc(100% / 5);
+  float: left;
+  margin-bottom: 100px;
+}
+
+.title-footer {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.li-footer {
+  list-style-type: none;  
+  padding: 5px 0;
+}
+
+.link-footer {
+  color: white;
+}
+
+.row-white {
+  width: 7%;
+  border: 1px solid white;
+  margin-bottom: 40px;
+}
+
+.fa-globe-americas,
+.italiano,
+.fa-sort-up {
+  color: white;
+}
+
+.fa-sort-up {
+  vertical-align: bottom;
+}
+
