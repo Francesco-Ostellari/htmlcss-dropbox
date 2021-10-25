@@ -416,6 +416,10 @@ a {
   color: #0061FF;
 }
 
+.container-column-aziende {
+  background-color:#F5F5F5;
+}
+
 .column-loghi-aziende {
   width: 15%;
   float: left;
@@ -448,18 +452,38 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
-  fill: white;
+  filter: invert(1);
 }
 
 .column-loghi-aziende-grande {
   width: 40%;
   float: left;
+  padding: 3em 3em 0 3em;
+
 }
 
-.bg-grey {
-  background-color:#F5F5F5;
-  width: 100%;
-  padding: 20px;
+.grandi-aziende-container img {
+  width: 20%;
+  display: inline-block;
+}
+
+.grandi-aziende-container {
+  position: relative;
+  overflow-y: scroll;
+  padding-bottom: 57%;
+}
+
+.grandi-aziende-container .text-designit::before {
+  content: '';
+  width: 10%;
+  height: 1px;
+  display: inline-block;
+  margin: 20px 0;
+  background-color:lightgrey;
+}
+
+.text-designit {
+  position: absolute;
 }
 
 #svg-nera {
