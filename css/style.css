@@ -103,11 +103,10 @@ a {
 }
 
 .button-blu {
-  width: 200px;
-  height: 25px;
   padding: 10px 15px;
   background-color: #0061FF;
   color: white;
+  display: inline-block;
 }
 
 .annulla-prova {
@@ -512,6 +511,11 @@ a {
   background-color: #FFD830;
 }
 
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 200px 0;
+}
 .bg-blu {
   background-color: #B4D0E7;
   width: 100%;
@@ -521,13 +525,11 @@ a {
 .left-column-utilizzatori {
   width: 60%;
   float: left;
-  padding: 150px;
 }
 
 .right-column-utilizzatori {
   width: 40%;
   float: left;
-  padding: 150px;
 }
 
 #color-brown {
@@ -538,4 +540,6 @@ a {
 #bg-white {
   background-color: white;
   color: black;
+  display: inline-block;
+  float: right;
 }
