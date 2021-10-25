@@ -408,10 +408,53 @@ a {
   margin: 0 30px;
 }
 
+.title-aziende {
+  margin-bottom: 100px;
+}
+.add-info-clienti {
+  text-decoration: underline;
+  color: #0061FF;
+}
+
+.column-loghi-aziende {
+  width: 15%;
+  float: left;
+}
+
+.bg-aziende {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.green {
+  background-color: #A2D39B;
+}
+
+.blue {
+  background-color: #0093CE;
+}
+
+.brown {
+  background-color: #61082B;
+}
+
+.light-red {
+  background-color: #FF1C1C;
+}
+
+.svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  fill: white;
+}
 .bg-blu {
   background-color: #B4D0E7;
   width: 100%;
 }
+
 
 .left-column-utilizzatori {
   width: 60%;
