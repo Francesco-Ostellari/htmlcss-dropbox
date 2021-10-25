@@ -450,6 +450,44 @@ a {
   width: 60%;
   fill: white;
 }
+
+.column-loghi-aziende-grande {
+  width: 40%;
+  float: left;
+}
+
+.bg-grey {
+  background-color:#F5F5F5;
+  width: 100%;
+  padding: 20px;
+}
+
+#svg-nera {
+  fill: black;
+  border-bottom: 2px solid grey;
+  width: 20%;
+}
+
+.desc-designit {
+  margin-top: 20px;
+}
+
+.red {
+  background-color: #D5001F;
+}
+
+.dark-blue {
+  background-color: #0D2481;
+}
+
+.light-blue {
+   background-color: #B4D0E7;
+}
+
+.yellow {
+  background-color: #FFD830;
+}
+
 .bg-blu {
   background-color: #B4D0E7;
   width: 100%;
