@@ -568,6 +568,43 @@ a {
   padding-right: 3%;
 }
 
+.fa-chevron-up {
+  float: right;
+  padding-right: 3%;
+  display: none;
+}
+
+.li-faq:hover .fa-chevron-down {
+  display: none;
+}
+
+.li-faq:hover .fa-chevron-up {
+  display: inline;
+}
+
+.risposte {
+  list-style-type: none;
+  padding-top: 20px;
+  width: 80%;
+  display: none;
+}
+
+.li-faq:hover .risposte{
+  list-style-type: none;
+  padding-top: 20px;
+  width: 80%;
+  display: inline-block;
+}
+
+.info-utili {
+  text-decoration: underline;
+  color: grey;
+}
+
+.li-risposte {
+  color: grey;
+}
+
 footer {
   width: 100%;
   background-color: black;
