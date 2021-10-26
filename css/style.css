@@ -242,10 +242,14 @@ a {
 
 .utente {
   padding-bottom: 5px;
+  float: left;
+  width: 95%;
 }
 
 .memoria {
   padding-bottom: 5px;
+  float: left;
+  width: 95%;
 }
 
 .icona {
@@ -456,7 +460,7 @@ a {
 .column-loghi-aziende-grande {
   width: 40%;
   float: left;
-  padding: 3em 3em 0 3em;
+  padding: 3em 0 0 3em;
 
 }
 
@@ -482,6 +486,7 @@ a {
 
 .text-designit {
   position: absolute;
+  padding-right: 3em;
 }
 
 #svg-nera {

@@ -12,11 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- header  -->
   <header>
+
+    <!-- nav-bar -->
     <nav class="navigation clearfix">
       <div class="img-logo">
         <img class="logo" src="img/logo-small.png" alt="logo Dropbox con scritta">
       </div>
+      <!-- parte sinistra del menu -->
       <div class="left-menu">
         <ul class="menu">
           <li class="li-menu">
@@ -30,6 +34,7 @@
           </li>
         </ul>
       </div>
+      <!-- parte destra del menu -->
       <div class="right-menu">
         <ul class="menu">
           <li class="li-menu">
@@ -47,57 +52,94 @@
         </ul>
       </div>
     </nav>
+    <!-- /nav-bar -->
 
+    <!-- jumbotron -->
     <div class="jumbotron">
+      <!-- contenitore-jumbotron -->
       <div class="contained-jumbotron">
+        <!-- contenitore titolo -->
         <div class="contained-title">
           <h1 class="title">
             Tutto ci&ograve; che ti serve per il lavoro, in un unico posto
           </h1>
         </div>
+        <!-- /contenitore-titolo -->
+
+          <!-- contenitore colonne -->
           <div class="contained-column clearfix">
+            <!-- colonna sinistra -->
             <div class="left-column">
+              <!-- descrizione colonna sinistra -->
               <p class="desc">
                 Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Buisness è pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
               </p>
+              <!-- bottone blu -->
               <a class="button-blu" href="#">Inizia la tua prova gratuita</a>
               <p class="annulla-prova">Annulla in qualsiasi momento</p>
+              <!-- freccia che porta ai piani disponibili -->
               <div class="arrow">
-                <i class="fas fa-arrow-down"></i>
+               <a href="#piani-disponibili"><i class="fas fa-arrow-down"></i></a>  
               </div>
             </div>
+            <!-- /colonna sinistra -->
+
+            <!-- colonna destra -->
             <div class="right-column">
+              <!-- contenitore immagine -->
               <div class="contained-img">
                 <img class="img-jumbotron" src="img/jumbo.png" alt="esempio di interfaccia Dropbox">
               </div>
             </div>
+            <!-- /colonna destra -->
           </div>
+          <!-- /contenitore colonna -->
       </div>
+      <!-- /jumbotron -->
   </header>
+  <!-- /header -->
+
+  <!-- main -->
   <main>
-    <div class="piani-disponibili">
+    <!-- piani disponibili -->
+    <div id="piani-disponibili" class="piani-disponibili">
+      <!-- contenitore titolo-2 h2 -->
       <div class="contained-title-2">
+        <!-- titolo-2 h2 -->
         <h2 class="title-2">
           Trova il piano Dropbox Buisness che fa per te 
         </h2>
       </div>
+      <!-- /contenitore titolo-2 h2 -->
+
+      <!-- opzioni -->
       <div class="opzioni">
         <div class="cerchio-blu"></div> <span class="fatturazione">Fatturazione mensile</span>
         <div class="cerchio-grigio"></div> <span class="fatturazione">Fatturazione annuale</span>
       </div>
+      <!-- /opzioni -->
   
+      <!-- contenitore colonne main -->
       <div class="column-main clearfix">
-
+        <!-- colonna sinistra main profilo -->
         <div class="left-column-main">
+          <!-- tipo profilo -->
           <div class="profilo">
             <i class="far fa-user"></i> <span class="tipo-profilo"> Singolo </span>
           </div>
+          <!-- contenuto colonna sinistra -->
           <div class="contained-left-column-main clearfix">
             <div class="titolo-profilo"> Professional </div>
             <div class="costo"> 19,99&euro; </div>
             <div class="mensile"> /mese </div>
-            <div class="utente"> <i class="far fa-user"></i> 1 utente </div>
-            <div class="memoria"> <i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro </div>
+            <div class="icona">
+              <i class="far fa-user"></i>
+            </div>
+            <div class="utente"> 1 utente </div>
+            <div class="icona">
+             <i class="far fa-folder"></i>
+            </div>
+            <div class="memoria"> 3 TB di spazio di archiviazione sicuro </div>
             <div class="icona"> 
               <i class="fas fa-pencil-alt"></i>
             </div>
@@ -118,18 +160,29 @@
               <li id= "hidden" class="dettagli-piano"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
             </ul>
           </div>
+          <!-- /contenuto colonna sinistra -->
         </div>
-  
+        <!-- /colonna sinistra -->
+        
+        <!-- colonna centrale -->
         <div class="centre-column-main">
+          <!-- tipo profilo -->
           <div class="profilo">
             <i class="far fa-building"></i> <span class="tipo-profilo"> Team </span>
           </div>
+          <!-- contenuto colonna centrale -->
           <div class="contained-centre-column-main">
             <div class="titolo-profilo"> Standard </div>
             <div class="costo"> 19,99&euro; </div>
             <div class="mensile"> / utente / mese, a partire da 3 utenti </div>
-            <div class="utente"> <i class="fas fa-user-plus"></i> 1 utente </div>
-            <div class="memoria"> <i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro </div>
+            <div class="icona">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="utente">1 utente</div>
+            <div class="icona">
+             <i class="far fa-folder"></i>
+            </div>
+            <div class="memoria">3 TB di spazio di archiviazione sicuro</div>
             <div class="icona">
               <i class="far fa-smile"></i>
             </div>
@@ -150,18 +203,28 @@
               <li class="dettagli-piano"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
             </ul>
           </div>
+          <!-- /contenuto colonna centrale -->
         </div>
-  
+        <!-- /colonna centrale -->
+
+        <!-- colonna destra -->
         <div class="right-column-main">
           <div class="profilo">
             <i class="far fa-building"></i> <span class="tipo-profilo"> Team </span>
           </div>
+          <!-- contenuto colonna destra -->
           <div class="contained-right-column-main">
             <div class="titolo-profilo"> Advanced </div>
             <div class="costo"> 19,99&euro; </div>
             <div class="mensile"> / utente / mese, a partire da 3 utenti </div>
-            <div class="utente"> <i class="fas fa-user-plus"></i> 1 utente </div>
-            <div class="memoria"> <i class="far fa-smile"></i> 3 TB di spazio di archiviazione sicuro </div>
+            <div class="icona">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="utente">1 utente</div>
+            <div class="icona">
+              <i class="far fa-smile"></i>
+            </div>
+            <div class="memoria">3 TB di spazio di archiviazione sicuro</div>
             <div class="icona">
               <i class="fas fa-pencil-alt"></i>
             </div>
@@ -182,44 +245,69 @@
               <li class="dettagli-piano"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
             </ul>
           </div>
+          <!-- /contenuto colonna destra -->
         </div>
+        <!-- /colonna destra -->
       </div>
+      <!-- /contenitore colonne main -->
 
+      <!-- riga main -->
       <div class="row-main">
+        <!-- titolo riga -->
         <div class="row-title">
           <i class="far fa-building"></i> <span class="tipo-profilo"> Team </span>
         </div>
+        <!-- contenuto riga -->
         <div class="contained-row clearfix">
+          <!-- colonna sinistra riga -->
           <div class="left-column-row">
             <div class="titolo-profilo-row"> Enterprise </div>
             <div class="costo-row"> Conttatta l'ufficio vendite per i prezzi </div>
             <div class="soluzioni"> Soluzioni personalizzate e supporto su misura per aiutare professionisti IT nella gestione su qualsiasi scala. </div>
           </div>
+          <!-- /colonna sinistra riga -->
+
+          <!-- colonna destra riga -->
           <div class="right-column-row">
             <a id = "contattavenditore" class="button-blu" href="#">Contatta l'ufficio vendite</a>
           </div>
+          <!-- /colonna destra riga -->
         </div>
       </div>
+      <!-- /riga main -->
 
+      <!-- aziende partner -->
       <div class="partner clearfix">
+        <!-- colonna sinistra aziende partner -->
         <div class="left-column-partner">
           <img class ="img-partner" src="img/partner.png" alt="uomini che dialogano tra di loro camminando">
         </div>
+        <!-- /colonna sinistra aziende partner -->
+
+        <!-- colonna destra aziende partner -->
         <div class="right-column-partner">
+          <!-- titolo colonna destra aziende partner -->
           <div class="title-partner">
             Entra in contatto con un partner Dropbox
           </div>
+          <!-- /titolo colonna destra aziende partner -->
+
+          <!-- testo colonna destra aziende partner -->
           <div class="text-partner">
             Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggre i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.
           </div>
           <a id="button-white" class="button-blu" href="#">Trova un partner</a>
         </div>
+        <!-- /colonna destra aziende partner -->
       </div>
+      <!-- /aziende partner -->
 
+      <!-- contenitore colonne business -->
       <div class="container-column-business clearfix">
         <h2 class="title-2">
           Esegui più operazioni con Dropbox Business
         </h2>
+        <!-- colonna business -->
         <div class="column-business">
           <div class="top-img">
             <img class="img-business" src="img/business-feature-switching-tools.png" alt="tools Dropbox">
@@ -231,37 +319,43 @@
             Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e <span class="underline"> Dropbox Paper </span> direttamente da Dropbox.
           </div>
         </div>
-
-          <div class="column-business centre">
-            <div class="top-img">
-              <img class="img-business" src="img/business-feature-coordinate-it.png" alt="tools Dropbox">
-            </div>
-            <div class="title-business">
-              Passa di meno da uno strumento all'altro
-            </div>
-            <div class="text-business">
-              Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da
-              Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
-              direttamente da Dropbox.
-            </div>
+        <!-- /colonna business  -->
+        
+        <!-- colonna business centrale -->
+        <div class="column-business centre">
+          <div class="top-img">
+            <img class="img-business" src="img/business-feature-coordinate-it.png" alt="tools Dropbox">
           </div>
-
-          <div class="column-business">
-            <div class="top-img">
-              <img class="img-business" src="img/business-feature-multi-device.png" alt="multi-device Dropbox">
-            </div>
-            <div class="title-business">
-              Passa di meno da uno strumento all'altro
-            </div>
-            <div class="text-business">
-              Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da
-              Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
-              direttamente da Dropbox.
-            </div>
+          <div class="title-business">
+            Passa di meno da uno strumento all'altro
           </div>
+          <div class="text-business">
+            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da
+            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+            direttamente da Dropbox.
+          </div>
+        </div>
+        <!-- /colonna business centrale -->
+        <div class="column-business">
+          <div class="top-img">
+            <img class="img-business" src="img/business-feature-multi-device.png" alt="multi-device Dropbox">
+          </div>
+          <div class="title-business">
+            Passa di meno da uno strumento all'altro
+          </div>
+          <div class="text-business">
+            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da
+            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+            direttamente da Dropbox.
+          </div>
+        </div>
+        <!-- /colonna business centrale -->
       </div>
+      <!-- /contenitore colonne business -->
 
+        <!-- contenitore colonne business -->
         <div class="container-column-business clearfix">
+          <!-- colonna business -->
           <div class="column-business">
             <div class="top-img">
               <img class="img-business" src="img/business-feature-integrations-it.png" alt="zoom Dropbox">
@@ -275,7 +369,9 @@
               direttamente da Dropbox.
             </div>
           </div>
+          <!-- /colonna business -->
         
+          <!-- colonna business centrale -->
           <div class="column-business centre">
             <div class="top-img">
               <img class="img-business" src="img/business-feature-send-files-it.png" alt="send-files Dropbox">
@@ -289,7 +385,9 @@
               direttamente da Dropbox.
             </div>
           </div>
-        
+          <!-- /colonna business centrale -->
+          
+          <!-- colonna business -->
           <div class="column-business">
             <div class="top-img">
               <img class="img-business" src="img/business-feature-security.png" alt="tools Dropbox">
@@ -303,69 +401,106 @@
               direttamente da Dropbox.
             </div>
           </div>
+          <!-- /colonna business -->
         </div>
+        <!-- /contenitore colonne business -->
 
+        <!-- numero aziende dropbox business -->
         <div class="title-aziende">
           <h2 class="title-2">
             Pi&ugrave; di 500.000 team utilizzano Dropbox Business
           </h2>
           <a class="add-info-clienti" href="#"> Scopri di più sui nostri clienti </a>
         </div>
+        <!-- /numero aziende dropbox business -->
     </div>
+    <!-- /piani disponibili -->
     
-    <!-- <div class="container-column-aziende"> -->
-      <div class="container-column-aziende clearfix">
+    <!-- contenitore colonne aziende -->
+    <div class="container-column-aziende clearfix">
+      <!-- colonne con loghi -->
+      <div class="column-loghi-aziende">
+        <!-- quadrato con logo -->
+        <div class="bg-aziende green">
+          <img src="img/designit.svg" alt="" class="svg">
+        </div>
+        <!-- /quadrato con logo  -->
 
-        <div class="column-loghi-aziende">
-          <div class="bg-aziende green">
-            <img src="img/designit.svg" alt="" class="svg">
-          </div>
-          <div class="bg-aziende blue">
-            <img src="img/university_of_florida-vflZIQgCW.svg" alt="" class="svg">
-          </div>
+        <!-- quadrato con logo -->
+        <div class="bg-aziende blue">
+          <img src="img/university_of_florida-vflZIQgCW.svg" alt="" class="svg">
         </div>
-
-        <div class="column-loghi-aziende">
-          <div class="bg-aziende brown">
-            <img src="img/arizona_state_university.svg" alt="" class="svg">
-          </div>
-          <div class="bg-aziende light-red">
-            <img src="img/topps.svg" alt="" class="svg">
-          </div>
-        </div>
-
-        <div class="column-loghi-aziende-grande">
-          <div class="grandi-aziende-container">
-            <img src="img/designit.svg" alt="">
-            <div class="text-designit">
-              <p class="desc-designit">
-                "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
-                compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
-                compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper". <br> <br> Morten Thomsen, Global IT Lead
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="column-loghi-aziende">
-          <div class="bg-aziende red">
-            <img src="img/world_bicycle_relief.svg" alt="" class="svg">
-          </div>
-          <div class="bg-aziende dark-blue">
-            <img src="img/lonely_planet.svg" alt="" class="svg">
-          </div>
-        </div>
-        <div class="column-loghi-aziende">
-          <div class="bg-aziende light-blue">
-           <img src="img/hearst_corp.svg" alt="" class="svg">
-          </div>
-          <div class="bg-aziende yellow">
-            <img src="img/clear_channel.svg" alt="" class="svg">
-          </div>
-        </div>
+        <!-- /quadrato con logo -->
       </div>
-    <!-- </div> -->
+      <!-- /colonne con loghi -->
 
+      <!-- colonne con loghi -->
+      <div class="column-loghi-aziende">
+        <!-- quadrato con logo -->
+        <div class="bg-aziende brown">
+          <img src="img/arizona_state_university.svg" alt="" class="svg">
+        </div>
+        <!-- /quadrato con logo -->
+
+        <!-- quadrato con logo -->
+        <div class="bg-aziende light-red">
+          <img src="img/topps.svg" alt="" class="svg">
+        </div>
+        <!-- /quadrato con logo -->
+      </div>
+      <!-- /colonne con loghi -->
+
+      <!-- colonna grande con loghi -->
+      <div class="column-loghi-aziende-grande">
+        <!-- contenitore colonna grande con loghi -->
+        <div class="grandi-aziende-container">
+          <img src="img/designit.svg" alt="">
+          <div class="text-designit">
+            <p class="desc-designit">
+              "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
+              compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
+              compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper". <br> <br> Morten Thomsen, Global IT Lead
+            </p>
+          </div>
+        </div>
+        <!-- /contenitore colonna grande con loghi -->
+      </div>
+      <!-- /colonna grande con loghi -->
+
+      <!-- colonna loghi aziende -->
+      <div class="column-loghi-aziende">
+        <!-- quadrato con logo -->
+        <div class="bg-aziende red">
+          <img src="img/world_bicycle_relief.svg" alt="" class="svg">
+        </div>
+        <!-- /quadrato con logo -->
+
+        <!-- quadrato con logo -->
+        <div class="bg-aziende dark-blue">
+          <img src="img/lonely_planet.svg" alt="" class="svg">
+        </div>
+        <!-- quadrato con logo -->
+      </div>
+      <!-- /colonna loghi aziende -->
+
+      <!-- colonna loghi aziende -->
+      <div class="column-loghi-aziende">
+        <!-- quadrato con loghi -->
+        <div class="bg-aziende light-blue">
+          <img src="img/hearst_corp.svg" alt="" class="svg">
+        </div>
+        <!-- /quadrato con loghi -->
+
+        <!-- quadrato con loghi -->
+        <div class="bg-aziende yellow">
+          <img src="img/clear_channel.svg" alt="" class="svg">
+        </div>
+        <!-- /quadrato con loghi -->
+      </div>
+    </div>
+    <!-- contenitore colonne aziende -->
+
+    <!-- attrazione per passare a dropbox business -->
     <div class="utilizzatori">
       <div class="bg-blu">
         <div class="container clearfix">
@@ -382,7 +517,9 @@
         </div>
       </div>
     </div>
+    <!-- /attrazione per passare a dropbox business -->
 
+    <!-- faq -->
     <div class="container-faq">
       <h2 id="faq" class="title-2">
         Domande frequenti
@@ -423,11 +560,17 @@
       </li>
       </ul>
     </div>
+    <!-- /faq -->
 
+    <!-- footer -->
     <footer>
+      <!-- container footer -->
       <div class="container-footer">
+        <!-- clearfix -->
         <div class="clearfix">
+          <!-- prima riga footer -->
           <div class="first-row-footer">
+            <!-- colonna footer -->
             <div class="column-footer">
               <div class="title-footer">
                 <h3 class="h3-footer">
@@ -444,7 +587,9 @@
                 </ul>
               </div>
             </div>
-  
+            <!-- /colonna footer -->
+
+            <!-- colonna footer -->
             <div class="column-footer">
               <div class="title-footer">
                 <h3 class="h3-footer">
@@ -461,7 +606,9 @@
                 </ul>
               </div>
             </div>
-  
+            <!-- /colonna footer -->
+            
+            <!-- colonna footer -->
             <div class="column-footer">
               <div class="title-footer">
                 <h3 class="h3-footer">
@@ -478,7 +625,9 @@
                 </ul>
               </div>
             </div>
-  
+            <!-- /colonna footer -->
+            
+            <!-- colonna footer -->
             <div class="column-footer">
               <div class="title-footer">
                 <h3 class="h3-footer">
@@ -495,7 +644,9 @@
                 </ul>
               </div>
             </div>
-  
+            <!-- /colonna footer -->
+            
+            <!-- colonna footer -->
             <div class="column-footer">
               <div class="title-footer">
                 <h3 class="h3-footer">
@@ -510,16 +661,24 @@
                 </ul>
               </div>
             </div>
+            <!-- /colonna footer -->
           </div>
+          <!-- /prima riga -->
         </div>
+        <!-- /clearfix -->
+        
+        <!-- seconda riga -->
         <div class="second-row-footer">
           <div class="row-white"></div>
           <div class="language">
           <i class="far fa-globe-americas"></i> <span class="italiano">Italiano</span> <i class="fas fa-sort-up"></i>
           </div>
         </div>
+        <!-- /seconda riga -->
       </div>
+      <!-- /container footer -->
     </footer>
+    <!-- /footer -->
   </main>
 </body>
 </html>
