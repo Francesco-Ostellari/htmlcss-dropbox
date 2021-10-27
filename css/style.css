@@ -49,8 +49,7 @@ a {
   border-bottom: 5px solid #0061FF;
 }
 
-.img-logo {
-  float: left;
+.container-img-logo {
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -59,18 +58,18 @@ a {
   vertical-align: middle;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 .clearfix::after {
   display: table;
   content: '';
   clear: both;
-}
-
-.left-menu {
-  float: left;
-}
-
-.right-menu {
-  float: right;
 }
 
 .button {
@@ -102,7 +101,7 @@ a {
   text-align: center;
 }
 
-li:hover ul {
+.li-menu:hover .sotto-menu {
   display: block;
   width:100%;
   left: 50%;
@@ -138,7 +137,6 @@ li:hover ul {
 
 .left-column {
   width: 40%;
-  float: left;
 }
 
 .desc {
@@ -165,7 +163,6 @@ li:hover ul {
 
 .right-column {
   width: 60%;
-  float: left;
   margin-top: 30px;
 }
 
@@ -245,7 +242,6 @@ li:hover ul {
 
 .left-column-main {
   border: 1px solid grey;
-  float: left;
   margin: 30px 0;
 }
 
@@ -255,13 +251,11 @@ li:hover ul {
 
 .centre-column-main {
   border: 1px solid grey;
-  float: left;
   margin: 30px 30px 0 30px;
 }
 
 .right-column-main {
   border: 1px solid grey;
-  float: left;
   margin-top: 30px;
 }
 
@@ -307,23 +301,19 @@ li:hover ul {
 
 .utente {
   padding-bottom: 5px;
-  float: left;
   width: 95%;
 }
 
 .memoria {
   padding-bottom: 5px;
-  float: left;
   width: 95%;
 }
 
 .icona {
-  float: left;
   width: 5%;
 }
 
 .funzioni {
-  float: left;
   width: 95%;
   padding-bottom: 30px;
 }
@@ -403,7 +393,6 @@ li:hover ul {
 
 .left-column-row {
   width: 85%;
-  float: left;
 }
 /* /layout jumbotron */
 
@@ -413,13 +402,11 @@ li:hover ul {
 }
 
 .right-column-row {
-  float: left;
   width: 15%;
 }
 
 .left-column-partner {
   width: 50%;
-  float: left;
 }
 
 .img-partner {
@@ -435,7 +422,6 @@ li:hover ul {
 
 .right-column-partner {
   width: 50%;
-  float: left;
   padding: 20px;
 }
 
@@ -454,7 +440,6 @@ li:hover ul {
 }
 
 .column-business {
-  float: left;
   width: calc(100% / 3 - 20px);
 }
 
@@ -491,7 +476,6 @@ li:hover ul {
 
 .column-loghi-aziende {
   width: 15%;
-  float: left;
 }
 
 .bg-aziende {
@@ -526,7 +510,6 @@ li:hover ul {
 
 .column-loghi-aziende-grande {
   width: 40%;
-  float: left;
   padding: 3em 0 0 3em;
 
 }
@@ -595,12 +578,10 @@ li:hover ul {
 
 .left-column-utilizzatori {
   width: 60%;
-  float: left;
 }
 
 .right-column-utilizzatori {
   width: 40%;
-  float: left;
 }
 
 #color-brown {
@@ -612,7 +593,6 @@ li:hover ul {
   background-color: white;
   color: black;
   display: inline-block;
-  float: right;
 }
 
 .container-faq {
@@ -692,7 +672,6 @@ footer {
 
 .column-footer {
   width: calc(100% / 5);
-  float: left;
   margin-bottom: 100px;
 }
 
