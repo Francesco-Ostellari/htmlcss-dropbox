@@ -81,8 +81,8 @@ a {
 .a-menu-btn {
   background-color: #0061FF;
   color: white;
-  display: inline-block;
-  padding: 0 10px;
+  padding: 5px 10px;
+  height: 33px;
 }
 
 .sotto-menu {
